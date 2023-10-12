@@ -1,0 +1,15 @@
+(role : anaysis, mode=Python)
+{
+    'data':{
+        'writer' : ['map index'];
+    }
+}
+<main.layla, Python>
+width = 12
+proxy.modea=width
+
+<locale/sub.layla>
+
+<JS>
+cosnole.log(proxy.get.modea)
+> 12

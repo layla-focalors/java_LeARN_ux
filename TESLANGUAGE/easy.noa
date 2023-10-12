@@ -1,0 +1,10 @@
+<python>
+    import datetime
+    proxy.log = datetime.datetime.now()
+</python>
+<Java>
+    System.out.println(proxy.log);
+</Java>
+<noa>
+    ai.merge()
+</noa>
