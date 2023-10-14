@@ -36,7 +36,7 @@ class Academy {
 class Desk{
     Academy u1;
     Desk(int _age, int _student_code, String _Name) {
-        u1 = new Academy();
+        this.u1 = new Academy();
         u1.SetAge(_age);
         u1.SetStudentCode(_student_code);
         u1.SetName(_Name);
