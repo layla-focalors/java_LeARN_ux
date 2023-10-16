@@ -14,6 +14,9 @@ public class app01 {
                     System.out.printf("%s 원권 : %d장 \n", text[i], value/unit[i]);
                     value = value%unit[i];
                 }
+                else {
+                    System.out.printf("%s 원권 : 0장 \n", text[i]);
+                }
             }
         }
     }    
