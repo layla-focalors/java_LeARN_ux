@@ -3,9 +3,9 @@ package 스텔라론_;
 public class 레일라 {
     public static void main(String[] args){
         Circle cr = new Circle(30, 30, 5, "Green");
-        cr.showCircleInfo();
+        cr.showCircleInfo2();
         Circle cr2 = new Circle(10, 5, 200, "Layla");
-        cr2.showCircleInfo();
+        cr2.showCircleInfo2();
     }
 }
 class Point{
@@ -36,5 +36,9 @@ class Circle{
     void showCircleInfo(){
         System.out.printf("해당 도형의 색은 %s이며, 도형의 넓이는 %d파이이고, 원의 중심 위치는 (%d,%d)이며, 반지름 길이는 %dCM 입니다.\n", 
         this.color, this.round * this.round, p1.Getx(), p1.GetY(), this.round);
+    }
+    void showCircleInfo2(){
+        System.out.printf("해당 도형의 색은 %s이며, 도형의 넓이는 %d파이이고, 원의 중심 위치는 (%d,%d)이며, 반지름 길이는 %dCM 입니다.\n", 
+        this.color, round * round, p1.Getx(), p1.GetY(), this.round);
     }
 }
